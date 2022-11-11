@@ -1,1 +1,11 @@
+OPENSTACK ORTAMINDA TERRAFORM KULLANARAK KUBERNETES INFRASTRUCTURE OLUSTURMA
+
+Bu dökümantasyonda Openstack ortamına terraform  ile k8s cluster infrastructure kurulumundan bahsedeceğiz. Sonraki aşamada ise ansible ile kubeadm/kubesapray
+kullanarak clusterı ayağa kaldıracağız.
+
+Ilk olarak süreçleri ilerteceğim ortam için openstack üzerinde Ubuntu-20.04 makine ayağa kaldırdım. Openstack ortamını CLI'dan yönetebilmek için openstack.rc 
+dosyasının oluşturulması gerekiyor. Bu dosyayı Openstack ortamına login olduktan sonra sağ üst köşedeki açılır menüden .sh formatında indirilebilirsiniz.
+
+https://www.fatlan.com/27-10-2022-openstack-client-install-and-configuration/  daha sonra URL'deki adımları uygulayarak Openstack ortamınızı CLI üzernden 
+kontrol edebilirsiniz.
 
